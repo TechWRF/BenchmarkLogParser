@@ -10,7 +10,7 @@ function parse_arguments() {
     const argparser = new ArgumentParser();
 
     argparser.add_argument('--log_name', {default: 'log.txt', help: 'data file'});
-    argparser.add_argument('--echo_stats', {default: false, help: 'n of tests'});
+    argparser.add_argument('--echo_stats', {default: false, help: 'view n of tests'});
     argparser.add_argument('--echo_result', {default: false, help: 'view parsed data'});
     argparser.add_argument('--db_name', {default: 'benchmark_db', help: 'one thats not created yet!'});
     argparser.add_argument('--port', {default: 3000, help: 'free port'});
